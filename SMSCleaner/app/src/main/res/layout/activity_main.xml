@@ -22,8 +22,8 @@
             android:id="@+id/inbox"
             android:textColor="#fff"
             android:background="@drawable/buttonshape"
-            android:layout_weight="0.44"
-            android:textStyle="normal|italic"
+            android:layout_weight="0.55"
+            android:textStyle="bold|normal"
             android:textAllCaps="false" />
 
 
@@ -36,7 +36,7 @@
             android:textColor="#fff"
             android:layout_weight="0.17"
             android:textAllCaps="false"
-            android:textStyle="normal|italic" />
+            android:textStyle="bold|normal" />
 
         <Button
             android:layout_width="wrap_content"
@@ -47,22 +47,23 @@
             android:textColor="#fff"
             android:layout_weight="0.27"
             android:textAllCaps="false"
-            android:textStyle="normal|italic" />
+            android:textStyle="bold|normal" />
     </LinearLayout>
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="match_parent"
         android:layout_below="@+id/linearLayout"
         android:layout_alignRight="@+id/linearLayout"
         android:layout_alignEnd="@+id/linearLayout"
         android:weightSum="1"
-        android:id="@+id/linearLayout2">
+        android:id="@+id/linearLayout2"
+        android:layout_above="@+id/linearLayout3">
 
         <ListView
-            android:layout_width="268dp"
-            android:layout_height="300dp"
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
             android:id="@+id/listView"
             android:layout_gravity="center_horizontal" />
     </LinearLayout>
