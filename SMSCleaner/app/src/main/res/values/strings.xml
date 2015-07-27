@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">SMSCleaner</string>
-
+    <string name="Inbox">Inbox</string>
+    <string name="SentItems">Sent Items</string>
+    <string name="Drafts">Drafts</string>
+    <string name="DeleteSel">Delete</string>
+    <string name="DeleteAll">Delete All</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 </resources>
